@@ -10,15 +10,11 @@
 
 # Tooling notes
 
-## Structure
+Use `ghcup` -> global and `stack` -> per-project only.
 
 `stack runghc ./nice.hs` -> run single file
 
-### NO
-
-Use `stack` for everything, write each file under `/src` then invoke from `/app/main.hs`.
-
-`stack ghci` => REPL
+ghcup's `ghci` => REPL
 
 
 Setup VS code's code-runner
